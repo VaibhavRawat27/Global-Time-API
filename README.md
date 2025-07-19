@@ -20,7 +20,7 @@ This project runs **locally** and uses Python's `pytz` library (no external APIs
 
 ### 1. Clone or Download
 ```
-git clone https://github.com/your-username/globaltime.git
+git clone https://github.com/vaibhavrawat27/globaltimeapi.git
 cd globaltime
 ```
 
@@ -46,7 +46,7 @@ You should see:
 ### 1. **Get All Timezones of a Country**
 **Request:**
 ```
-http://127.0.0.1:5000/worldtime?country=India
+http://127.0.0.1:5000/globaltime?country=India
 ```
 **Response:**
 ```json
@@ -59,7 +59,7 @@ http://127.0.0.1:5000/worldtime?country=India
 ### 2. **Get Current Time of a Specific Timezone**
 **Request:**
 ```
-http://127.0.0.1:5000/worldtime?timezone=Asia/Kolkata
+http://127.0.0.1:5000/globaltime?timezone=Asia/Kolkata
 ```
 **Response:**
 ```json
