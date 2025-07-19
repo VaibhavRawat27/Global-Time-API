@@ -31,7 +31,7 @@ pip install flask pytz
 
 ### 3. Run the Flask App
 ```
-python app.py
+python api.py
 ```
 
 You should see:
