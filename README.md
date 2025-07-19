@@ -75,18 +75,21 @@ http://127.0.0.1:5000/globaltime?timezone=Asia/Kolkata
 ```
 globaltime/
 │
-├── app.py        # Main Flask application
-└── README.md     # Project documentation
+├── api.py        # Main Flask application
+├── LICENSE       # MIT License 
+├── README.md     # Project documentation
+├── api.py        # Main API Code
+└── requirements.txt # All Python Library 
 ```
 
 ---
 
-## 📌 Future Enhancements
+<!--## 📌 Future Enhancements
 - Add **weather information** (temperature) for each timezone.
 - Add **case-insensitive & partial country name search**.
 - Deploy the API online for global access.
 
----
+--- -->
 
 ## 📝 License
 This project is licensed under the **MIT License** – feel free to use and modify.
